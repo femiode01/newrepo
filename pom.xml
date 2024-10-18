@@ -39,8 +39,8 @@
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <source>1.6</source>
-          <target>1.6</target>
+          <source>1.9</source>
+          <target>1.9</target>
         </configuration>
       </plugin>
 
@@ -157,6 +157,12 @@
           <artifactId>taglist-maven-plugin</artifactId>
           <version>2.4</version>
         </plugin>
+	
+	<plugin>
+    	  <groupId>org.apache.maven.plugins</groupId>
+    	  <artifactId>maven-war-plugin</artifactId>
+    	  <version>3.3.1</version>
+	</plugin>
 
         <plugin>
           <groupId>org.mortbay.jetty</groupId>
