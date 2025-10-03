@@ -13,7 +13,7 @@ node('master')
     
     stage('ContinuousDeployment') 
     {
-       sh label: '', script: 'scp /root/.jenkins/workspace/Scripted-pipeline/webapp/target/webapp.war root@172.31.44.34:/var/lib/tomcat8/webapps/testenv.war'
+       sh label: '', script: 'scp /root/.jenkins/workspace/Scripted-pipeline/treo/webapp/target/webapp.war root@172.31.44.34:/var/lib/tomcat8/webapps/testenv.war'
     
     }
     
